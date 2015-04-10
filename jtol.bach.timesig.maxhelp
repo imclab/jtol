@@ -440,6 +440,7 @@
 					"fontsize" : 18.0,
 					"gradient" : 0,
 					"id" : "obj-25",
+					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
