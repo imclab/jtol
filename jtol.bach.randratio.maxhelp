@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 377.0, 171.0, 736.0, 524.0 ],
+		"rect" : [ 100.0, 100.0, 736.0, 524.0 ],
 		"bgcolor" : [ 0.282353, 0.282353, 0.282353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -346,7 +346,7 @@
 					"out" : "n",
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 323.0, 429.0, 67.0, 19.0 ],
-					"text" : "1/1",
+					"text" : "1/6",
 					"triangle" : 0
 				}
 
@@ -382,7 +382,7 @@
 					"out" : "n",
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 235.0, 429.0, 67.0, 19.0 ],
-					"text" : "1/1",
+					"text" : "10/9",
 					"triangle" : 0
 				}
 
@@ -402,7 +402,7 @@
 					"out" : "n",
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 148.0, 429.0, 67.0, 19.0 ],
-					"text" : "1/1",
+					"text" : "1/9",
 					"triangle" : 0
 				}
 
@@ -447,13 +447,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 60.0, 187.0, 51.0, 19.0 ],
+					"patching_rect" : [ 60.0, 187.0, 55.0, 29.0 ],
 					"style" : "",
-					"text" : "qmetro 10",
+					"text" : "qmetro 10 @active 1",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -1600,7 +1601,7 @@
 					"out" : "n",
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 60.0, 429.0, 62.0, 27.0 ],
-					"text" : "0/1",
+					"text" : "5/18",
 					"triangle" : 0
 				}
 
