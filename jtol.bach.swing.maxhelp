@@ -66,7 +66,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 555.0, 237.0, 40.0, 19.0 ],
 					"style" : "",
-					"text" : "del 400",
+					"text" : "del 800",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -445,7 +445,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 702.0, 608.0, 127.0, 21.0 ],
 					"style" : "",
-					"text" : "0 0 0 0",
+					"text" : "0 -5/8 0 0",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1113,7 +1113,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 186.0, 608.0, 301.0, 21.0 ],
 					"style" : "",
-					"text" : "( 1 1 1 1 )",
+					"text" : "( 4 ( 8 3 8 8 ) )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1392,7 +1392,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 382.0, 45.0, 967.0, 776.0 ],
+						"rect" : [ 267.0, 45.0, 967.0, 776.0 ],
 						"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -1425,11 +1425,27 @@
 									"fontface" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
+									"id" : "obj-125",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 516.142883, 289.0, 55.857117, 27.0 ],
+									"style" : "",
+									"text" : "maximum delay list"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial Bold",
+									"fontsize" : 9.0,
 									"id" : "obj-120",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 596.714294, 298.0, 43.0, 17.0 ],
+									"patching_rect" : [ 595.714294, 299.0, 43.0, 17.0 ],
 									"style" : "",
 									"text" : "amount"
 								}
@@ -2332,7 +2348,7 @@
 													"outlettype" : [ "int" ],
 													"patching_rect" : [ 116.0, 82.0, 29.5, 19.0 ],
 													"style" : "",
-													"text" : "+ 10",
+													"text" : "+ 5",
 													"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 												}
 
@@ -2371,6 +2387,7 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
+													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2390,6 +2407,7 @@
 											}
 , 											{
 												"patchline" : 												{
+													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"destination" : [ "obj-4", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2409,6 +2427,7 @@
 											}
 , 											{
 												"patchline" : 												{
+													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"destination" : [ "obj-39", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2429,6 +2448,7 @@
 											}
 , 											{
 												"patchline" : 												{
+													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"destination" : [ "obj-85", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2448,6 +2468,7 @@
 											}
 , 											{
 												"patchline" : 												{
+													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"destination" : [ "obj-3", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2457,6 +2478,7 @@
 											}
 , 											{
 												"patchline" : 												{
+													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"destination" : [ "obj-6", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2467,7 +2489,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 481.0, 567.0, 196.5, 19.0 ],
+									"patching_rect" : [ 481.0, 569.0, 196.5, 19.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -4318,6 +4340,13 @@
 			}
 , 			{
 				"name" : "jtol.bach.recomposenoi.maxpat",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jtol.bach.randratio.maxpat",
 				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
