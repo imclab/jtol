@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.0, 402.0, 43.0, 17.0 ],
+					"patching_rect" : [ 280.0, 403.0, 43.0, 17.0 ],
 					"style" : "",
 					"text" : "address",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -102,7 +102,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 403.0, 48.0, 27.0 ],
+					"patching_rect" : [ 63.0, 404.0, 48.0, 27.0 ],
 					"style" : "",
 					"text" : "iterated branches",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -115,13 +115,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-6",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 403.0, 92.0, 27.0 ],
+					"patching_rect" : [ 171.0, 404.0, 92.0, 37.0 ],
 					"style" : "",
-					"text" : "position of branches in incoming llll",
+					"text" : "position of branches in incoming llll at maxlevel 1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -182,6 +182,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -192,6 +193,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"hidden" : 1,
 					"id" : "obj-22",
 					"linecount" : 2,
@@ -243,6 +245,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -253,6 +256,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"hidden" : 1,
 					"id" : "obj-46",
 					"linecount" : 2,
@@ -349,6 +353,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -359,6 +364,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-18",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -390,6 +396,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -400,6 +407,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-37",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -414,6 +422,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -424,6 +433,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-27",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -438,6 +448,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -448,6 +459,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-28",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -462,6 +474,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -472,6 +485,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -548,6 +562,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -558,6 +573,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"hidden" : 1,
 					"id" : "obj-41",
 					"linecount" : 2,
@@ -697,7 +713,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -707,7 +722,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -717,7 +731,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -828,9 +841,16 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.iter.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_619",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
-				"type" : "TEXT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jtol.bach.branches.maxpat",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -841,19 +861,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.nth.mxo",
-				"type" : "iLaX"
+				"name" : "bach.-.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.flat.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.append.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.leq.mxo",
+				"name" : "bach.portal.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -865,11 +880,19 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.nth.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.reg.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.slice.mxo",
+				"name" : "bach.args.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -877,31 +900,19 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.find.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.is.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.length.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.wrap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.portal.mxo",
+				"name" : "bach.slice.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.args.mxo",
+				"name" : "bach.flat.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.subs.mxo",
 				"type" : "iLaX"
 			}
 , 			{

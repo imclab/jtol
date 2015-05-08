@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 639.0, 45.0, 606.0, 367.0 ],
+		"rect" : [ 100.0, 100.0, 606.0, 367.0 ],
 		"bgcolor" : [ 0.282353, 0.282353, 0.282353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -239,9 +239,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.0, 126.0, 59.0, 22.0 ],
+					"patching_rect" : [ 64.0, 126.0, 62.0, 22.0 ],
 					"style" : "",
-					"text" : "( 1 1 2 3)",
+					"text" : "( 1 1 2 3 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -265,9 +265,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.25, 147.0, 103.0, 22.0 ],
+					"patching_rect" : [ 80.25, 147.0, 107.0, 22.0 ],
 					"style" : "",
-					"text" : "( 1 ( 1 1 1 ) 1 1 1)",
+					"text" : "( 1 ( 1 1 1 ) 1 1 1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

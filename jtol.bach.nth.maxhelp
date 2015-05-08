@@ -66,9 +66,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 273.333313, 122.0, 17.0 ],
+					"patching_rect" : [ 416.0, 273.333313, 82.0, 17.0 ],
 					"style" : "",
-					"text" : "@index >> index (int >= 1)",
+					"text" : "@index >> index",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -413,7 +413,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.0, 388.5, 228.0, 29.0 ],
 					"style" : "",
-					"text" : "( 1 )",
+					"text" : "( 1 ( 1 2 1 ( 1 1 1 1 1 ) ) )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -751,15 +751,28 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jtol.bach.branches.maxpat",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.lookup.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.-.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bach.nth.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.flat.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.wrap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -771,11 +784,19 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.reg.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.slice.mxo",
+				"name" : "bach.portal.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.args.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -783,19 +804,19 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.collect.mxo",
+				"name" : "bach.wrap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.find.mxo",
+				"name" : "bach.slice.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.is.mxo",
+				"name" : "bach.flat.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.append.mxo",
+				"name" : "bach.subs.mxo",
 				"type" : "iLaX"
 			}
  ],

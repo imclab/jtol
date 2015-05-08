@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -96,6 +96,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -106,6 +107,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-17",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -120,6 +122,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -130,6 +133,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -425,7 +429,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -460,6 +464,7 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -470,6 +475,7 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"gradient" : 0,
 									"id" : "obj-10",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -534,6 +540,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -544,6 +551,7 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"gradient" : 0,
 									"id" : "obj-1",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -639,6 +647,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -649,6 +658,7 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"gradient" : 0,
 									"id" : "obj-8",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -700,6 +710,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -710,6 +721,7 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"gradient" : 0,
 									"id" : "obj-2",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -724,6 +736,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -734,6 +747,7 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"gradient" : 0,
 									"id" : "obj-16",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -1138,7 +1152,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1489,7 +1503,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1807,6 +1821,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1816,6 +1831,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-31", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1904,6 +1920,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1914,6 +1931,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1943,7 +1961,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2000,7 +2018,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 47.0, 179.333344, 35.0, 17.0 ],
+									"patching_rect" : [ 47.0, 179.333344, 35.0, 19.0 ],
 									"style" : "",
 									"text" : "abs 0.",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2017,7 +2035,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 163.0, 123.800003, 174.0, 38.0 ],
+									"patching_rect" : [ 163.0, 123.800003, 174.0, 37.0 ],
 									"style" : "",
 									"text" : "<--tempo for jtol.bach2score is always at quarter-note value (at the moment)\n=> 4 * 60000",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2036,7 +2054,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 94.333336, 53.0, 17.0 ],
+									"patching_rect" : [ 145.0, 94.333336, 53.0, 19.0 ],
 									"style" : "",
 									"text" : "bach.nth 1",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2055,7 +2073,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "float", "float" ],
-									"patching_rect" : [ 11.0, 152.800003, 90.0, 17.0 ],
+									"patching_rect" : [ 11.0, 152.800003, 90.0, 19.0 ],
 									"style" : "",
 									"text" : "t b f f",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2074,7 +2092,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 123.800003, 153.0, 17.0 ],
+									"patching_rect" : [ 11.0, 123.800003, 153.0, 19.0 ],
 									"style" : "",
 									"text" : "bach.expr $f1 * 240000 / $f2 @out t",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2093,7 +2111,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 97.0, 68.333336, 67.0, 17.0 ],
+									"patching_rect" : [ 97.0, 68.333336, 67.0, 19.0 ],
 									"style" : "",
 									"text" : "bach.delace 3",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2112,7 +2130,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 97.0, 42.0, 45.0, 17.0 ],
+									"patching_rect" : [ 97.0, 42.0, 45.0, 19.0 ],
 									"style" : "",
 									"text" : "bach.flat",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2415,6 +2433,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2425,6 +2444,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
