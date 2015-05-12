@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 709.0, 317.0, 188.0, 17.0 ],
-					"presentation_rect" : [ 709.0, 319.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "@change 1/0 >> change before (default 0)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2846,7 +2845,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 713.0, 679.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2011, Olivier Pasquet,",
+					"text" : "2015, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3932,21 +3931,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jtol.bach.totdur.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bach.-.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.sum.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
 				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
@@ -4062,14 +4047,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.slice.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.append.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.submatrix.mxo",
 				"type" : "iLaX"
 			}
@@ -4079,6 +4056,14 @@
 			}
 , 			{
 				"name" : "bach.rot.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.append.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.slice.mxo",
 				"type" : "iLaX"
 			}
 , 			{

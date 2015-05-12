@@ -52,7 +52,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 283.0, 281.0, 71.0, 19.0 ],
 					"style" : "",
-					"text" : "loadmess set 2",
+					"text" : "loadmess set 1",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -282,7 +282,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.0, 437.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2011, Olivier Pasquet,",
+					"text" : "2015, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -686,7 +686,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 66.0, 350.0, 236.0, 19.0 ],
 					"style" : "",
-					"text" : "jtol.bach.iter @depth 2",
+					"text" : "jtol.bach.iter @depth 1",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 

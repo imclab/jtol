@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 440.0, 182.0, 121.0, 17.0 ],
-					"presentation_rect" : [ 431.0, 376.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "which is also an abstraction",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -64,7 +63,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 440.0, 163.0, 81.0, 19.0 ],
-					"presentation_rect" : [ 4.0, 291.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "now also see :",
 					"textcolor" : [ 0.52549, 0.062745, 0.003922, 1.0 ],
@@ -83,7 +81,6 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 					"patching_rect" : [ 193.0, 335.0, 19.0, 19.0 ],
-					"presentation_rect" : [ 200.0, 339.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -461,7 +458,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 431.0, 451.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2012, Olivier Pasquet,",
+					"text" : "2015, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -608,7 +605,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 430.0, 138.0, 175.0, 67.0 ],
-					"presentation_rect" : [ 428.0, 141.0, 0.0, 0.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}

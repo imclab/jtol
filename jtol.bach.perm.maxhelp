@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -92,6 +92,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -102,6 +103,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -116,6 +118,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -126,6 +129,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -321,6 +325,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -331,6 +336,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"id" : "obj-61",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -364,6 +370,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -374,6 +381,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"hidden" : 1,
 					"id" : "obj-22",
 					"linecount" : 2,
@@ -425,6 +433,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -435,6 +444,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"hidden" : 1,
 					"id" : "obj-46",
 					"linecount" : 2,
@@ -460,7 +470,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 494.0, 401.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2011, Olivier Pasquet,",
+					"text" : "2015, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -526,6 +536,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -536,6 +547,7 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"hidden" : 1,
 					"id" : "obj-41",
 					"linecount" : 2,
@@ -725,16 +737,16 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.perm.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_619",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.decomposenoi.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_619",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -746,16 +758,16 @@
 			}
 , 			{
 				"name" : "jtol.bach.recomposenoi.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_619",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.fifo.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_619",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

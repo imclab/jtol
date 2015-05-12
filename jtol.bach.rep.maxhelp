@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -481,7 +481,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 425.0, 409.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2013, Olivier Pasquet,",
+					"text" : "2015, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -731,16 +731,16 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.rep.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_702",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.decomposenoi.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_702",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -752,7 +752,7 @@
 			}
 , 			{
 				"name" : "jtol.bach.recomposenoi.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_702",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

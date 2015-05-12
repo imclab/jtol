@@ -445,7 +445,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 702.0, 608.0, 127.0, 21.0 ],
 					"style" : "",
-					"text" : "0 -5/8 0 0",
+					"text" : "0 0 0 0",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -664,7 +664,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.0, 264.0, 79.0, 17.0 ],
+					"patching_rect" : [ 656.0, 264.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "offset from note"
 				}
@@ -1113,7 +1113,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 186.0, 608.0, 301.0, 21.0 ],
 					"style" : "",
-					"text" : "( 4 ( 8 3 8 8 ) )",
+					"text" : "( 1 1 1 1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

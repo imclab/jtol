@@ -1601,7 +1601,7 @@
 					"out" : "n",
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 60.0, 429.0, 62.0, 27.0 ],
-					"text" : "5/18",
+					"text" : "1/9",
 					"triangle" : 0
 				}
 
@@ -2088,7 +2088,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 464.0, 472.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2013, Olivier Pasquet,",
+					"text" : "2015, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

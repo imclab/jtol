@@ -533,7 +533,7 @@
 									"id" : "obj-67",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 796.0, 307.0, 95.0, 29.0 ],
@@ -953,7 +953,7 @@
 									"id" : "obj-36",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 555.0, 307.0, 95.0, 29.0 ],
@@ -1746,7 +1746,7 @@
 									"id" : "obj-4",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 313.0, 307.0, 95.0, 29.0 ],
@@ -2871,7 +2871,7 @@
 									"id" : "obj-8",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 1033.0, 455.0, 120.0, 29.0 ],
@@ -2986,7 +2986,7 @@
 									"id" : "obj-4",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 785.0, 455.0, 120.0, 29.0 ],
@@ -3081,7 +3081,7 @@
 									"id" : "obj-22",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 370.0, 449.0, 120.0, 29.0 ],
@@ -3150,7 +3150,7 @@
 									"id" : "obj-53",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 72.0, 449.0, 120.0, 29.0 ],
@@ -5479,7 +5479,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 747.0, 448.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2013, Olivier Pasquet,",
+					"text" : "2015, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -5880,6 +5880,13 @@
 				"name" : "jtol.bach2score.maxpat",
 				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.change.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 681.0, 84.0, 668.0, 609.0 ],
+		"rect" : [ 59.0, 212.0, 668.0, 609.0 ],
 		"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1514,7 +1514,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 538.0, 240.0, 793.0, 475.0 ],
+						"rect" : [ 538.0, 240.0, 724.0, 478.0 ],
 						"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -1622,11 +1622,11 @@
 									"id" : "obj-49",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "bang", "int" ],
-									"patching_rect" : [ 28.0, 43.0, 724.0, 19.0 ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 28.0, 43.0, 371.5, 19.0 ],
 									"style" : "",
-									"text" : "t l b 1",
+									"text" : "t l b",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -1874,7 +1874,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 457.0, 369.0, 59.0, 19.0 ],
+									"patching_rect" : [ 457.0, 369.0, 59.0, 29.0 ],
 									"style" : "",
 									"text" : "s #0note",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -1931,7 +1931,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 531.0, 369.0, 59.0, 19.0 ],
+									"patching_rect" : [ 531.0, 369.0, 59.0, 29.0 ],
 									"style" : "",
 									"text" : "s #0beat",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2021,7 +2021,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 367.0, 369.0, 68.0, 19.0 ],
+									"patching_rect" : [ 367.0, 369.0, 68.0, 29.0 ],
 									"style" : "",
 									"text" : "s #0tempo",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2513,17 +2513,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-49", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"destination" : [ "obj-23", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 742.5, 407.0, 246.75, 407.0 ],
-									"source" : [ "obj-49", 2 ]
 								}
 
 							}

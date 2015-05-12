@@ -487,7 +487,7 @@
 									"id" : "obj-25",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 569.75, 150.0, 105.0, 29.0 ],
@@ -539,7 +539,7 @@
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tonedivision" : 4,
 									"verboseundo" : 1,
-									"versionnumber" : 7800,
+									"versionnumber" : 7810,
 									"voicenames" : [ "(", ")" ],
 									"voicespacing" : [ 0.0, 26.0 ],
 									"zoom" : 99.055115
@@ -557,7 +557,7 @@
 									"id" : "obj-21",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 355.75, 150.0, 105.0, 29.0 ],
@@ -609,7 +609,7 @@
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tonedivision" : 4,
 									"verboseundo" : 1,
-									"versionnumber" : 7800,
+									"versionnumber" : 7810,
 									"voicenames" : [ "(", ")" ],
 									"voicespacing" : [ 0.0, 26.0 ],
 									"zoom" : 99.055115
@@ -838,7 +838,7 @@
 									"id" : "obj-9",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "" ],
 									"patching_rect" : [ 107.0, 323.0, 151.0, 29.0 ],
@@ -890,7 +890,7 @@
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tonedivision" : 4,
 									"verboseundo" : 1,
-									"versionnumber" : 7800,
+									"versionnumber" : 7810,
 									"voicenames" : [ "(", ")" ],
 									"voicespacing" : [ 0.0, 26.0 ],
 									"zoom" : 99.055115
@@ -1367,7 +1367,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.0, 288.5, 449.0, 29.0 ],
 					"style" : "",
-					"text" : "( 1 2 ( 3 4 5 ( 6 7 8 10 9 ) ) 11 12 13 ( 14 15 ( 16 17 ) ) )",
+					"text" : "( 1 2 ( 3 4 5 ( 8 7 6 9 10 ) ) 11 12 13 ( 14 15 ( 17 16 ) ) )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1597,7 +1597,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 495.0, 401.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2011, Olivier Pasquet,",
+					"text" : "2015, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -2046,6 +2046,13 @@
 			}
 , 			{
 				"name" : "bach.div.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.change.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
 				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
