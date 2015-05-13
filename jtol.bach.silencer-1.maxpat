@@ -222,7 +222,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 670.0, 509.181824, 114.0, 19.0 ],
 					"style" : "",
-					"text" : "if $i1 <= $i2 then -1 else 1",
+					"text" : "if $i1 < $i2 then -1 else 1",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
