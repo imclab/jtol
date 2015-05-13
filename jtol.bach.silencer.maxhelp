@@ -50,9 +50,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 188.333328, 81.0, 19.0 ],
+					"patching_rect" : [ 287.0, 188.333328, 76.0, 19.0 ],
 					"style" : "",
-					"text" : "loadmess set 100",
+					"text" : "loadmess set 50",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -169,7 +169,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 288.5, 277.0, 29.0 ],
 					"style" : "",
-					"text" : "( 2 ( 3 5 4 ) -1 )",
+					"text" : "( 2 ( -3 -5 -4 ) 1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -727,6 +727,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "bach.filter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bach.nth.mxo",
 				"type" : "iLaX"
 			}
@@ -796,6 +803,18 @@
 			}
 , 			{
 				"name" : "bach.lt.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.neq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.eq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.pick.mxo",
 				"type" : "iLaX"
 			}
  ],
