@@ -177,7 +177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 151.0, 498.333374, 341.5, 19.0 ],
+					"patching_rect" : [ 151.0, 499.333374, 341.5, 19.0 ],
 					"style" : "",
 					"text" : "* 1",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -481,7 +481,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 334.0, 216.0, 20.0, 15.0 ],
+									"patching_rect" : [ 334.0, 216.0, 20.0, 19.0 ],
 									"style" : "",
 									"text" : "60",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -500,7 +500,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 14.0, 63.333344, 338.0, 17.0 ],
+									"patching_rect" : [ 14.0, 63.333344, 338.0, 19.0 ],
 									"style" : "",
 									"text" : "t l b",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -519,7 +519,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 333.0, 188.399994, 53.0, 17.0 ],
+									"patching_rect" : [ 333.0, 188.399994, 53.0, 19.0 ],
 									"style" : "",
 									"text" : "onebang 1",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -557,7 +557,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 196.0, 216.0, 16.0, 15.0 ],
+									"patching_rect" : [ 196.0, 216.0, 16.0, 19.0 ],
 									"style" : "",
 									"text" : "4",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -576,7 +576,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 49.0, 113.400002, 32.0, 17.0 ],
+									"patching_rect" : [ 49.0, 113.400002, 32.0, 19.0 ],
 									"style" : "",
 									"text" : "zl rev",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -595,7 +595,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 14.0, 88.400002, 54.0, 17.0 ],
+									"patching_rect" : [ 14.0, 88.400002, 54.0, 19.0 ],
 									"style" : "",
 									"text" : "route done",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -638,7 +638,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 167.0, 281.0, 68.0, 17.0 ],
+									"patching_rect" : [ 167.0, 281.0, 68.0, 19.0 ],
 									"style" : "",
 									"text" : "s #0beat",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -664,7 +664,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 216.0, 16.0, 15.0 ],
+									"patching_rect" : [ 165.0, 216.0, 16.0, 19.0 ],
 									"style" : "",
 									"text" : "3",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -683,7 +683,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 49.0, 138.399994, 40.0, 17.0 ],
+									"patching_rect" : [ 49.0, 138.399994, 40.0, 19.0 ],
 									"style" : "",
 									"text" : "zl iter 2",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -701,7 +701,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 101.0, 311.0, 76.0, 17.0 ],
+									"patching_rect" : [ 101.0, 311.0, 76.0, 19.0 ],
 									"style" : "",
 									"text" : "s #0tempo",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -727,7 +727,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 133.0, 216.0, 16.0, 15.0 ],
+									"patching_rect" : [ 133.0, 216.0, 16.0, 19.0 ],
 									"style" : "",
 									"text" : "2",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -753,7 +753,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 101.0, 216.0, 16.0, 15.0 ],
+									"patching_rect" : [ 101.0, 216.0, 16.0, 19.0 ],
 									"style" : "",
 									"text" : "1",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -772,7 +772,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 101.0, 255.0, 217.0, 17.0 ],
+									"patching_rect" : [ 101.0, 255.0, 217.0, 19.0 ],
 									"style" : "",
 									"text" : "gate 4",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -791,7 +791,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 5,
 									"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-									"patching_rect" : [ 98.0, 188.399994, 146.0, 17.0 ],
+									"patching_rect" : [ 98.0, 188.399994, 146.0, 19.0 ],
 									"style" : "",
 									"text" : "sel tempo note loop rest",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -810,7 +810,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 49.0, 163.399994, 68.0, 17.0 ],
+									"patching_rect" : [ 49.0, 163.399994, 68.0, 19.0 ],
 									"style" : "",
 									"text" : "zl slice 1",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -2425,7 +2425,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "play" ],
 					"patching_rect" : [ 40.0, 17.0, 19.0, 19.0 ],
 					"style" : ""
 				}

@@ -87,9 +87,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 502.0, 248.333328, 232.0, 17.0 ],
+					"patching_rect" : [ 502.0, 248.333328, 210.0, 17.0 ],
 					"style" : "",
-					"text" : "@duration (default 1) >> duration (decimal, rational)",
+					"text" : "@dur (default 1) >> duration (decimal, rational)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -484,7 +484,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.0, 354.0, 353.0, 19.0 ],
 					"style" : "",
-					"text" : "jtol.bach.setdur @depth 1 @out t @duration 5",
+					"text" : "jtol.bach.setdur @depth 1 @out t @dur 5",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 

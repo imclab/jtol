@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 451.0, 45.0, 1010.0, 771.0 ],
+		"rect" : [ 191.0, 45.0, 1010.0, 771.0 ],
 		"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -95,7 +95,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 316.0, 15.0, 19.0, 19.0 ],
 					"style" : ""
 				}
@@ -250,7 +250,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 630.0, 52.0, 762.0, 730.0 ],
+						"rect" : [ 227.0, 80.0, 762.0, 730.0 ],
 						"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -748,7 +748,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 604.0, 8.0, 19.0, 19.0 ],
 									"style" : ""
 								}
@@ -1477,7 +1477,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 310.0, 344.0, 734.0, 476.0 ],
+										"rect" : [ 37.0, 143.0, 734.0, 476.0 ],
 										"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -10320,7 +10320,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 12.0, 682.0, 296.0, 19.0 ],
 									"style" : "",
-									"text" : "bach.expr $r1*sgn($i2)",
+									"text" : "bach.expr $r1*sgn($r2)",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -13458,7 +13458,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 745.938049, 8.857147, 19.0, 19.0 ],
 									"style" : ""
 								}
@@ -15660,7 +15660,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 457.166656, 83.0, 19.0, 19.0 ],
 					"style" : ""
 				}

@@ -45,12 +45,32 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 158.0, 191.333328, 74.0, 19.0 ],
+					"style" : "",
+					"text" : "loadmess set -1",
+					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"hidden" : 1,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 188.333328, 76.0, 19.0 ],
+					"patching_rect" : [ 287.0, 191.333328, 76.0, 19.0 ],
 					"style" : "",
 					"text" : "loadmess set 50",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -169,7 +189,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 288.5, 277.0, 29.0 ],
 					"style" : "",
-					"text" : "( 2 ( -3 -5 -4 ) 1 )",
+					"text" : "( 2 ( 3 5 4 ) -1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -240,7 +260,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 256.0, 277.0, 19.0 ],
 					"style" : "",
-					"text" : "jtol.bach.silencer @depth 1 @percent 50 @out t",
+					"text" : "jtol.bach.silencer @depth 2 @percent 50 @out t",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -685,6 +705,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

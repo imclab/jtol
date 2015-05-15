@@ -203,7 +203,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 539.0, 574.181824, 165.0, 19.0 ],
 					"style" : "",
-					"text" : "bach.expr $r1*$i2 @scalarmode 1",
+					"text" : "bach.expr $r1*$r2 @scalarmode 1",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 

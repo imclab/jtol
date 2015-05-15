@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 105.0, 230.0, 709.0, 517.0 ],
+		"rect" : [ 100.0, 100.0, 709.0, 517.0 ],
 		"bgcolor" : [ 0.282353, 0.282353, 0.282353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,6 +39,49 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+					"bgfillcolor_color2" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "gradient",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"gradient" : 0,
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 157.0, 252.0, 33.0, 22.0 ],
+					"presentation_rect" : [ 160.0, 256.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "stop",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 9.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 510.0, 207.25, 85.0, 17.0 ],
+					"style" : "",
+					"text" : "@dur >> duration",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial Bold",
 					"fontsize" : 9.0,
@@ -46,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 189.333328, 147.0, 17.0 ],
+					"patching_rect" : [ 510.0, 190.25, 147.0, 17.0 ],
 					"style" : "",
 					"text" : "@out n  (default) >> bach native",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -104,7 +147,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 261.0, 219.0, 68.0, 17.0 ],
+					"patching_rect" : [ 263.5, 221.5, 68.0, 17.0 ],
 					"style" : "",
 					"text" : "total duration",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -146,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 289.0, 194.0, 19.0, 17.0 ],
+					"patching_rect" : [ 289.0, 196.5, 19.0, 17.0 ],
 					"style" : "",
 					"text" : "III",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -254,7 +297,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 227.333313, 98.0, 17.0 ],
+					"patching_rect" : [ 510.0, 241.25, 98.0, 17.0 ],
 					"style" : "",
 					"text" : "@note >> beat value",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -270,7 +313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 211.0, 89.0, 17.0 ],
+					"patching_rect" : [ 510.0, 224.25, 89.0, 17.0 ],
 					"style" : "",
 					"text" : "@tempo >> tempo",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -304,7 +347,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 151.0, 155.0, 100.0 ],
+					"patching_rect" : [ 505.0, 151.0, 152.0, 113.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -696,7 +739,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 324.0, 290.0, 19.0 ],
 					"style" : "",
-					"text" : "jtol.bach.delay @note 4 @tempo 90 @out t",
+					"text" : "jtol.bach.delay @note 4 @tempo 90 @dur 4 @out t",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -778,6 +821,16 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}

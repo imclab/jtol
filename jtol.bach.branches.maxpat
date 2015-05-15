@@ -48,10 +48,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "bang" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 11.0, 730.666687, 200.5, 19.0 ],
 					"style" : "",
-					"text" : "bach.portal 2",
+					"text" : "bach.portal 2 @out p",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
