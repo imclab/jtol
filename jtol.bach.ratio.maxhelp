@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 260.0, 77.0, 637.0, 563.0 ],
+		"rect" : [ 100.0, 100.0, 657.0, 563.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,6 +38,22 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 9.0,
+					"id" : "obj-44",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 436.0, 402.0, 188.0, 17.0 ],
+					"style" : "",
+					"text" : "@change 1/0 >> change before (default 0)",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
@@ -1866,7 +1882,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 396.0, 111.0, 17.0 ],
+					"patching_rect" : [ 436.0, 383.0, 111.0, 17.0 ],
 					"style" : "",
 					"text" : "@informat tree >>  tree ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1882,7 +1898,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 364.0, 185.0, 17.0 ],
+					"patching_rect" : [ 436.0, 351.0, 185.0, 17.0 ],
 					"style" : "",
 					"text" : "@outformat rational (default )>>  rational",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1898,7 +1914,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 380.0, 134.0, 17.0 ],
+					"patching_rect" : [ 436.0, 367.0, 134.0, 17.0 ],
 					"style" : "",
 					"text" : "@outformat decimal >>  float",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1914,7 +1930,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 341.0, 141.0, 17.0 ],
+					"patching_rect" : [ 436.0, 328.0, 141.0, 17.0 ],
 					"style" : "",
 					"text" : "@informat rational >>  rational",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2249,7 +2265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 309.0, 149.0, 17.0 ],
+					"patching_rect" : [ 436.0, 296.0, 149.0, 17.0 ],
 					"style" : "",
 					"text" : "@informat tree (default) >>  tree ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2265,7 +2281,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 325.0, 128.0, 17.0 ],
+					"patching_rect" : [ 436.0, 312.0, 128.0, 17.0 ],
 					"style" : "",
 					"text" : "@informat decimal >>  float",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2281,7 +2297,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 287.0, 147.0, 17.0 ],
+					"patching_rect" : [ 436.0, 274.0, 147.0, 17.0 ],
 					"style" : "",
 					"text" : "@out n  (default) >> bach native",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2297,7 +2313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 271.0, 70.0, 17.0 ],
+					"patching_rect" : [ 436.0, 258.0, 70.0, 17.0 ],
 					"style" : "",
 					"text" : "@out t >> text",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2313,7 +2329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 251.0, 62.0, 17.0 ],
+					"patching_rect" : [ 436.0, 238.0, 62.0, 17.0 ],
 					"style" : "",
 					"text" : "__________",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -3856,7 +3872,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 250.0, 62.0, 17.0 ],
+					"patching_rect" : [ 436.0, 237.0, 62.0, 17.0 ],
 					"style" : "",
 					"text" : "arguments :",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -3873,7 +3889,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 431.0, 247.0, 197.0, 167.0 ],
+					"patching_rect" : [ 431.0, 234.0, 199.0, 188.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -4111,7 +4127,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.ratio.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4119,69 +4135,76 @@
 , 			{
 				"name" : "bach.filter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.-.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.lcm.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.gcd.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.times.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.div.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.change.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.musicmaker.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach2score.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.timesig.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4189,20 +4212,13 @@
 , 			{
 				"name" : "bach.abs.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.change.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.play.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

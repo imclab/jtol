@@ -96,7 +96,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 224.166656, 137.0, 202.0, 17.0 ],
-									"presentation_rect" : [ 226.666656, 136.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "<--------------------------------------------------------------"
 								}
@@ -112,10 +111,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 454.666656, 160.0, 57.0, 17.0 ],
-									"presentation_rect" : [ 484.666656, 157.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "try this too",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"text" : "try this too"
 								}
 
 							}
@@ -155,7 +152,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 425.666656, 185.0, 161.0, 22.0 ],
-									"presentation_rect" : [ 455.666656, 185.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "( 1 1 ( 1 1 1 ) 1 1 ( 1 1 1 1 ) )",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -182,7 +178,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 425.666656, 134.0, 117.0, 22.0 ],
-									"presentation_rect" : [ 455.666656, 138.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "( 1 1 1 1 ( 1 1 1 1 ) )",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -692,7 +687,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 130.75, 621.0, 193.0, 22.0 ],
 									"style" : "",
-									"text" : "( 2 -1 1 1 )",
+									"text" : "( 1 1 1 1 ( 2 -1 ) )",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -1274,7 +1269,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-39", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2163,13 +2157,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jtol.bach.filterspikes.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jtol.bach.iter.maxpat",
 				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
@@ -2297,15 +2284,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.slice.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.portal.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.flat.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.slice.mxo",
+				"name" : "bach.iter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2313,31 +2300,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.gt.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.length.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.neq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.is.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.wrap.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.iter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2353,7 +2316,19 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.wrap.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.flat.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.subs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.gt.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2365,6 +2340,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.is.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.eq.mxo",
 				"type" : "iLaX"
 			}
@@ -2373,7 +2352,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.neq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.pick.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.length.mxo",
 				"type" : "iLaX"
 			}
 , 			{
