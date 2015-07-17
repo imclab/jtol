@@ -56,10 +56,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.571426, 306.0, 108.0, 19.0 ],
-					"presentation_rect" : [ 237.0, 191.0, 0.0, 0.0 ],
+					"patching_rect" : [ 205.571426, 306.0, 119.0, 19.0 ],
 					"style" : "",
-					"text" : "( 9 10 ( 1 2 ( ) 3 ) 11 12 )",
+					"text" : "( 9 10 ( 1 2 ( ) 3 ) 11 ( ) 12 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -762,7 +761,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.filterspikes.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
