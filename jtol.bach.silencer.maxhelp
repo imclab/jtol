@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 634.0, 447.0 ],
+		"rect" : [ 505.0, 179.0, 564.0, 393.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -86,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 246.333328, 159.0, 17.0 ],
+					"patching_rect" : [ 381.0, 244.833328, 159.0, 17.0 ],
 					"style" : "",
 					"text" : "@percent >> percentage of silence",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -183,13 +183,14 @@
 					"fontsize" : 18.0,
 					"gradient" : 0,
 					"id" : "obj-45",
+					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 288.5, 277.0, 29.0 ],
 					"style" : "",
-					"text" : "( 2 ( 3 5 4 ) -1 )",
+					"text" : "( 2 ( -3 -5 4 ) 1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -274,7 +275,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 227.333328, 124.0, 17.0 ],
+					"patching_rect" : [ 381.0, 225.833328, 124.0, 17.0 ],
 					"style" : "",
 					"text" : "@depth >> depth (int >= 1)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -302,7 +303,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 566.0, 432.0, 238.0, 29.0 ],
+					"patching_rect" : [ 506.0, 387.0, 238.0, 29.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://www.acsu.buffalo.edu/~jtrinker/",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -318,7 +319,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 552.0, 401.0, 61.0, 19.0 ],
+					"patching_rect" : [ 492.0, 356.0, 61.0, 19.0 ],
 					"style" : "",
 					"text" : "JT Rinker",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -337,7 +338,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.0, 432.0, 45.0, 19.0 ],
+					"patching_rect" : [ 349.0, 387.0, 45.0, 19.0 ],
 					"style" : "",
 					"text" : "onecopy",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -365,7 +366,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.0, 432.0, 180.0, 29.0 ],
+					"patching_rect" : [ 411.0, 387.0, 180.0, 29.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://www.opasquet.fr",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -381,7 +382,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 401.0, 124.0, 19.0 ],
+					"patching_rect" : [ 376.0, 356.0, 124.0, 19.0 ],
 					"style" : "",
 					"text" : "2015, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -398,7 +399,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 552.0, 401.0, 60.0, 18.0 ]
+					"patching_rect" : [ 492.0, 356.0, 60.0, 18.0 ]
 				}
 
 			}
@@ -412,7 +413,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 436.0, 401.0, 125.0, 18.0 ]
+					"patching_rect" : [ 376.0, 356.0, 125.0, 18.0 ]
 				}
 
 			}
@@ -442,7 +443,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 204.333328, 147.0, 17.0 ],
+					"patching_rect" : [ 381.0, 202.833328, 147.0, 17.0 ],
 					"style" : "",
 					"text" : "@out n  (default) >> bach native",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -458,7 +459,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 188.333328, 70.0, 17.0 ],
+					"patching_rect" : [ 381.0, 186.833328, 70.0, 17.0 ],
 					"style" : "",
 					"text" : "@out t >> text",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -474,7 +475,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 172.0, 62.0, 17.0 ],
+					"patching_rect" : [ 381.0, 170.5, 62.0, 17.0 ],
 					"style" : "",
 					"text" : "__________",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -584,7 +585,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 171.0, 62.0, 17.0 ],
+					"patching_rect" : [ 381.0, 169.5, 62.0, 17.0 ],
 					"style" : "",
 					"text" : "arguments :",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -601,7 +602,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 438.0, 167.0, 168.0, 101.333328 ],
+					"patching_rect" : [ 376.0, 165.5, 168.0, 101.333328 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}

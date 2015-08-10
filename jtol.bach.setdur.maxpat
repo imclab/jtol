@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -54,13 +54,13 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 121.0, 162.0, 366.0, 398.0 ],
-						"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+						"rect" : [ 731.0, 164.0, 366.0, 420.0 ],
+						"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -90,7 +90,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -109,7 +109,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -154,7 +154,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -163,9 +163,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 239.0, 327.714264, 69.5, 19.0 ],
+									"patching_rect" : [ 239.0, 342.714264, 69.5, 19.0 ],
 									"style" : "",
-									"text" : "+",
+									"text" : "+ 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -199,7 +199,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -218,7 +218,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -237,7 +237,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -256,7 +256,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -275,7 +275,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -294,7 +294,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -313,7 +313,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -332,7 +332,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -355,7 +355,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 239.0, 352.5, 18.0, 18.0 ],
+									"patching_rect" : [ 239.0, 367.5, 18.0, 18.0 ],
 									"style" : ""
 								}
 
@@ -380,7 +380,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.0, 352.5, 18.0, 18.0 ],
+									"patching_rect" : [ 39.0, 367.5, 18.0, 18.0 ],
 									"style" : ""
 								}
 
@@ -401,7 +401,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -411,7 +411,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -421,7 +421,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -431,7 +431,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-51", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -441,7 +441,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-51", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -451,7 +451,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-11", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -461,7 +461,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -471,7 +471,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-51", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -481,7 +481,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-22", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -491,7 +491,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -501,7 +501,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -511,7 +511,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -521,7 +521,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -531,7 +531,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -541,7 +541,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -551,7 +551,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -561,7 +561,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -571,7 +571,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -581,7 +581,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -625,13 +625,13 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
 						"rect" : [ 537.0, 89.0, 377.0, 463.0 ],
-						"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+						"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -661,7 +661,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -680,7 +680,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -699,7 +699,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -718,7 +718,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -737,7 +737,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -756,7 +756,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -775,7 +775,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -794,7 +794,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -813,7 +813,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -832,7 +832,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -851,7 +851,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -870,7 +870,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -889,7 +889,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -908,7 +908,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -927,7 +927,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -946,7 +946,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -960,7 +960,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -1456,7 +1456,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-14", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1466,7 +1466,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1476,7 +1476,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-15", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1486,7 +1486,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1496,7 +1496,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-42", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1506,7 +1506,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-36", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1516,7 +1516,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-28", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1526,7 +1526,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-39", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1536,7 +1536,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-45", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1546,7 +1546,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1556,7 +1556,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-40", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1566,7 +1566,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-54", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1576,7 +1576,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1586,7 +1586,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-27", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1596,7 +1596,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-39", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1606,7 +1606,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-44", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1616,7 +1616,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-34", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1626,7 +1626,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-36", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1636,7 +1636,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-48", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1646,7 +1646,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-44", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1656,7 +1656,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-36", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1666,7 +1666,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1676,7 +1676,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.8, 0.8, 0.8, 0.9 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-18", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1755,7 +1755,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 87.0, 153.714279, 167.0, 19.0 ],
 					"style" : "",
-					"text" : "gate 2",
+					"text" : "gate 2 2",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -1777,7 +1777,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1813,7 +1813,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -1827,7 +1827,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -1873,7 +1873,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 111.75, 562.428589, 32.5, 19.0 ],
-													"presentation_rect" : [ 139.5, 470.428589, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "gate",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2899,7 +2898,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -2918,7 +2917,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -2937,7 +2936,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -2956,7 +2955,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -2975,7 +2974,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -3092,7 +3091,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-31", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3102,7 +3101,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-6", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3208,7 +3207,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3260,7 +3259,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 300.0, 156.0, 16.0, 19.0 ],
+									"patching_rect" : [ 300.0, 153.0, 16.0, 19.0 ],
 									"style" : "",
 									"text" : "1",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3276,31 +3275,12 @@
 									"fontsize" : 9.0,
 									"id" : "obj-8",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 297.0, 83.25, 53.0, 19.0 ],
-									"style" : "",
-									"text" : "onebang 1",
-									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 127.0, 60.25, 188.5, 19.0 ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 297.0, 78.25, 57.0, 19.0 ],
 									"style" : "",
-									"text" : "t l b",
+									"text" : "loadmess 1",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -3312,7 +3292,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 127.0, 239.0, 18.0, 18.0 ],
+									"patching_rect" : [ 127.0, 237.0, 18.0, 18.0 ],
 									"style" : ""
 								}
 
@@ -3336,7 +3316,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 257.0, 156.0, 16.0, 19.0 ],
+									"patching_rect" : [ 257.0, 153.0, 16.0, 19.0 ],
 									"style" : "",
 									"text" : "0",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3362,7 +3342,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 231.0, 156.0, 16.0, 19.0 ],
+									"patching_rect" : [ 231.0, 153.0, 16.0, 19.0 ],
 									"style" : "",
 									"text" : "3",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3381,7 +3361,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 25.0, 191.0, 121.0, 19.0 ],
+									"patching_rect" : [ 25.0, 186.0, 121.0, 19.0 ],
 									"style" : "",
 									"text" : "gate 3",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3400,7 +3380,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "bang", "bang", "" ],
-									"patching_rect" : [ 176.0, 133.25, 97.0, 19.0 ],
+									"patching_rect" : [ 176.0, 128.25, 97.0, 19.0 ],
 									"style" : "",
 									"text" : "sel out depth dur",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3426,7 +3406,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 205.0, 156.0, 16.0, 19.0 ],
+									"patching_rect" : [ 205.0, 153.0, 16.0, 19.0 ],
 									"style" : "",
 									"text" : "2",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3445,7 +3425,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 127.0, 83.25, 32.5, 19.0 ],
+									"patching_rect" : [ 127.0, 78.25, 32.0, 19.0 ],
 									"style" : "",
 									"text" : "zl rev",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3464,7 +3444,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 92.0, 36.25, 54.0, 19.0 ],
+									"patching_rect" : [ 92.0, 50.25, 54.0, 19.0 ],
 									"style" : "",
 									"text" : "route done",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3490,7 +3470,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 179.0, 156.0, 16.0, 19.0 ],
+									"patching_rect" : [ 179.0, 153.0, 16.0, 19.0 ],
 									"style" : "",
 									"text" : "1",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3509,7 +3489,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 127.0, 108.25, 68.0, 19.0 ],
+									"patching_rect" : [ 127.0, 103.25, 68.0, 19.0 ],
 									"style" : "",
 									"text" : "zl slice 1",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3524,7 +3504,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 92.0, 11.0, 18.0, 18.0 ],
+									"patching_rect" : [ 92.0, 25.0, 18.0, 18.0 ],
 									"style" : ""
 								}
 
@@ -3548,7 +3528,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 216.0, 36.0, 19.0 ],
+									"patching_rect" : [ 25.0, 211.0, 36.0, 19.0 ],
 									"style" : "",
 									"text" : "out $1",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3562,7 +3542,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 76.0, 239.0, 18.0, 18.0 ],
+									"patching_rect" : [ 76.0, 237.0, 18.0, 18.0 ],
 									"style" : ""
 								}
 
@@ -3574,7 +3554,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 239.0, 18.0, 18.0 ],
+									"patching_rect" : [ 25.0, 237.0, 18.0, 18.0 ],
 									"style" : ""
 								}
 
@@ -3692,8 +3672,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-									"destination" : [ "obj-7", 0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 1 ]
@@ -3753,26 +3733,6 @@
 , 							{
 								"patchline" : 								{
 									"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-									"destination" : [ "obj-18", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-7", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3784,16 +3744,6 @@
 								"patchline" : 								{
 									"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-9", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-9", 0 ]
