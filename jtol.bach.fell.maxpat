@@ -131,7 +131,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 243.875, 186.0, 16.0, 19.0 ],
-									"presentation_rect" : [ 186.875, 201.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "0"
 								}
@@ -146,7 +145,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 223.875, 186.0, 16.0, 19.0 ],
-									"presentation_rect" : [ 166.875, 201.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "1"
 								}
@@ -180,7 +178,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 191.875, 186.0, 16.0, 19.0 ],
-									"presentation_rect" : [ 134.875, 201.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "0"
 								}

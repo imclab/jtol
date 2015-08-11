@@ -159,9 +159,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1001.0, 65.0, 104.0, 17.0 ],
+									"patching_rect" : [ 1001.0, 65.0, 109.0, 17.0 ],
 									"style" : "",
-									"text" : "bug with higer depths ?",
+									"text" : "bug with higher depths ?",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -2220,7 +2220,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1018.166687, 477.0, 74.0, 19.0 ],
-									"presentation_rect" : [ 1127.75, 461.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "bach.expr $r1*4",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -3332,7 +3331,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 824.75, 423.0, 193.0, 22.0 ],
 									"style" : "",
-									"text" : "( 1 1 )",
+									"text" : "( 1 1 1 ( 1 1 1 1 ) )",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -6695,7 +6694,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 91.666664, 228.0, 272.5, 19.0 ],
 									"style" : "",
-									"text" : "jtol.bach.fell @index1 1 @index2 4 @out t",
+									"text" : "jtol.bach.fell @index1 1 @index2 4 @out t @keepdur 2",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -6901,6 +6900,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 133.75, 378.0, 193.0, 22.0 ],
 									"style" : "",
+									"text" : "( 7/5 ( 1 1 ( 2 ) ) )",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -8323,19 +8323,19 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.fell.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.iter.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.branches.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8371,31 +8371,31 @@
 			}
 , 			{
 				"name" : "jtol.bach.setdur.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.decompose.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.recompose.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.totdur.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.ratio.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8431,13 +8431,13 @@
 			}
 , 			{
 				"name" : "jtol.bach2score.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.timesig.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8449,19 +8449,19 @@
 			}
 , 			{
 				"name" : "jtol.bach.play.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.length.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.delay.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
