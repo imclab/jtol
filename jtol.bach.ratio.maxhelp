@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 436.0, 403.0, 206.0, 17.0 ],
-					"presentation_rect" : [ 436.0, 407.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "@keepdur 0 (default)/1 >> keep input duration",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -326,9 +325,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 886.0, 193.0, 113.0, 17.0 ],
+									"patching_rect" : [ 886.0, 193.0, 203.0, 17.0 ],
 									"style" : "",
-									"text" : "only with @outformat tree",
+									"text" : "only with @outformat tree & @outformat rational",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"underline" : 1
 								}
@@ -4144,7 +4143,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.ratio.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4168,7 +4167,7 @@
 			}
 , 			{
 				"name" : "jtol.bach.totdur.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4210,19 +4209,19 @@
 			}
 , 			{
 				"name" : "jtol.bach.musicmaker.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach2score.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.timesig.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4234,7 +4233,7 @@
 			}
 , 			{
 				"name" : "jtol.bach.play.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"type" : "JSON",
 				"implicit" : 1
 			}
