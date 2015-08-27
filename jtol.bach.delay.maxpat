@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -49,7 +49,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 99.0, 698.0, 744.0, 19.0 ],
+					"patching_rect" : [ 119.5, 693.0, 682.5, 19.0 ],
 					"style" : "",
 					"text" : "bach.portal 3 @out p",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -68,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 430.0, 414.666626, 61.5, 19.0 ],
+					"patching_rect" : [ 430.0, 440.666626, 372.0, 19.0 ],
 					"style" : "",
 					"text" : "t l l",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -82,7 +82,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.333313, 729.0, 18.0, 18.0 ],
+					"patching_rect" : [ 561.833313, 729.0, 18.0, 18.0 ],
 					"style" : ""
 				}
 
@@ -345,7 +345,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.0, 486.0, 16.0, 19.0 ],
+					"patching_rect" : [ 356.0, 516.0, 16.0, 19.0 ],
 					"style" : "",
 					"text" : "1",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -364,7 +364,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.0, 510.0, 32.5, 19.0 ],
+					"patching_rect" : [ 356.0, 540.0, 32.5, 19.0 ],
 					"style" : "",
 					"text" : "gate",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -593,7 +593,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 441.400024, 111.0, 29.0 ],
+					"patching_rect" : [ 430.0, 471.400024, 111.0, 29.0 ],
 					"style" : "",
 					"text" : "bach.expr float($r1*$f2) @out t",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -631,7 +631,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 190.0, 577.5, 258.5, 19.0 ],
+					"patching_rect" : [ 190.0, 577.5, 259.0, 19.0 ],
 					"style" : "",
 					"text" : "del 0",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -693,7 +693,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1559,7 +1559,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 510.0, 29.5, 19.0 ],
+					"patching_rect" : [ 280.0, 540.0, 29.5, 19.0 ],
 					"style" : "",
 					"text" : "stop",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -1748,7 +1748,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 66.5, 688.25, 108.5, 688.25 ],
+					"midpoints" : [ 66.5, 680.25, 129.0, 680.25 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1906,7 +1906,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"destination" : [ "obj-33", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
